@@ -12,7 +12,9 @@ This project uses React for the frontend and JSON Server for a super simple exam
 
 You'll need two terminals open. 
 
-In one, you can run `npm start` to get the React App running on `http://localhost:3000`
+In one, run `npm install` to download all the needed dependencies 
+
+Then run `npm start` to get the React App running on `http://localhost:3000`
 
 In the other, you can do `npx json-server --watch data/db.json --port 8000`
 
