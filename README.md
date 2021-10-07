@@ -1,6 +1,7 @@
 # The Dojo Blog From Net Ninja
 
 This project was created by taking the net ninja react course on YouTube 
+
 [https://www.youtube.com/watch?v=j942wKiXFu8&list=PL4cUxeGkcC9gZD-Tvwfod2gaISzfRiP9d]
 
 ## What is used? 
