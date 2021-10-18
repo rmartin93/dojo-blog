@@ -15,7 +15,7 @@ const useFetch = (url) => {
                 }
                 return res.json();
             })
-            .then(data => {
+            .then(data => {                
                 setData(data)
                 setSpinner(false)
                 setError(null)
@@ -29,7 +29,7 @@ const useFetch = (url) => {
                     setSpinner(false)
                 }
             })
-        }, 1000)
+        }, 0)
         return () => abortCont.abort()
     }, [url]) 
     
