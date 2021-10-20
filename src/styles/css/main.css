@@ -30,6 +30,16 @@ body {
   background-color: #f7f7f7;
 }
 
+pre {
+  max-width: 600px;
+  background: #a5a5a5;
+  color: #f7f7f7;
+  margin: 0 auto;
+  padding: 2rem;
+  border-radius: 5px;
+  overflow: auto;
+}
+
 body {
   font-family: "Roboto", sans-serif;
 }

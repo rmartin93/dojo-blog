@@ -15,7 +15,8 @@ const useFetch = (url) => {
                 }
                 return res.json();
             })
-            .then(data => {                
+            .then(data => {   
+                console.log(data)             
                 setData(data)
                 setSpinner(false)
                 setError(null)
